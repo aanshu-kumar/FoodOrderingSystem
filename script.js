@@ -76,16 +76,16 @@ document.addEventListener("DOMContentLoaded", function () {
     return new Promise((resolve) => {
       setTimeout(() => {
         const burgers = [
-          { name: "Cheese Burger", price: 5.99 },
-          { name: "Veggie Burger", price: 6.49 },
-          { name: "Bacon Burger", price: 7.49 },
-          { name: "Chicken Burger", price: 6.99 },
-          { name: "Mushroom Burger", price: 6.79 },
-          { name: "Double Cheese Burger", price: 8.99 },
-          { name: "BBQ Burger", price: 7.99 },
-          { name: "Fish Burger", price: 7.29 },
-          { name: "Turkey Burger", price: 6.49 },
-          { name: "Spicy Burger", price: 7.49 },
+          { name: "Butter Burger", price: 4.99 },
+          { name: "Veggie Burger", price: 8.49 },
+          { name: "Hawaiian Burger", price: 5.49 },
+          { name: "Onion Burger", price: 2.99 },
+          { name: "Cheese Burger", price: 7.79 },
+          { name: "Double Cheese Burger", price: 9.99 },
+          { name: "Turkey Burger", price: 8.99 },
+          { name: "Fish Burger", price: 6.29 },
+          { name: "Chicken Burger", price: 7.49 },
+          { name: "Spicy Burger", price: 3.49 },
         ];
 
         const randomBurgers = [];
