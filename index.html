@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Odering System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="side-bar">
+        <div class="close">&#10006;</div>
+        <img src="./Assets/logo.png" alt="logo" />
+        <h1 class="small-heading">Your Restaurant Menu</h1>
+        <p class="slogan">Your Slogan</p>
+        <hr />
+        <div class="quick-links">
+          <h2 class="small-heading mar-bottom">Quick Links</h2>
+          <ol>
+            <li>1. Home</li>
+            <li>2. Your Order</li>
+            <li>3. Wallet</li>
+            <li>4. Profile</li>
+            <li>5. Logout</li>
+            <li onclick="secondScreen()">6. Menu/secondScreen</li>
+          </ol>
+        </div>
+        <hr />
+        <div class="more-about-us">
+          <p class="small-heading mar-bottom">More About Us</p>
+          <ol>
+            <li>1. Our Blog</li>
+            <li>2. Upcoming Dishes</li>
+            <li>3. Our Story</li>
+            <li>4. Social Media Links</li>
+          </ol>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="nav-element">
+          <div class="hamburger">
+            <div class="open">&#9776;</div>
+          </div>
+          <div class="search">
+            <form>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search Food Item" />
+            </form>
+          </div>
+          <button class="red-btn signup">Signup</button>
+          <button class="red-btn">Login</button>
+          <img src="./Assets/logo.png" alt="" class="small-logo" />
+        </div>
+        <div class="helping-class"></div>
+        <div class="hero-img">
+          <img src="./Assets/banner.png" alt="" class="main_hero_img" />
+        </div>
+
+        <section class="menu">
+          <p class="small-heading">Menu</p>
+          <div class="card-section"></div>
+        </section>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
